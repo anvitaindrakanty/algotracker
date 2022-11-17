@@ -3,7 +3,12 @@
 function Insertion()
 {
     c_delay=0;
-
+    document.getElementById('complexities_table').style.display = 'none';
+    document.getElementById('complexities_table1').style.display = 'none';
+    document.getElementById('complexities_table2').style.display = 'block';
+    document.getElementById('complexities_table3').style.display = 'none';
+    document.getElementById('complexities_table4').style.display = 'none';
+    document.getElementById('complexities_table5').style.display = 'none';
     for(var j=0;j<array_size;j++)
     {
         div_update(divs[j],div_sizes[j],"yellow");//Color update

@@ -7,6 +7,12 @@ function Quick()
     quick_sort(0,array_size-1);
 
     // enable_buttons();
+    document.getElementById('complexities_table').style.display = 'none';
+    document.getElementById('complexities_table1').style.display = 'none';
+    document.getElementById('complexities_table2').style.display = 'none';
+    document.getElementById('complexities_table3').style.display = 'none';
+    document.getElementById('complexities_table4').style.display = 'block';
+    document.getElementById('complexities_table5').style.display = 'none';
 }
 
 function quick_partition (start, end)

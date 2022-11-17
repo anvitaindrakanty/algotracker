@@ -2,7 +2,12 @@
 function Selection_sort()
 {
     c_delay=0;
-
+    document.getElementById('complexities_table').style.display = 'none';
+    document.getElementById('complexities_table1').style.display = 'block';
+    document.getElementById('complexities_table2').style.display = 'none';
+    document.getElementById('complexities_table3').style.display = 'none';
+    document.getElementById('complexities_table4').style.display = 'none';
+    document.getElementById('complexities_table5').style.display = 'none';
     for(var i=0;i<array_size-1;i++)
     {
         div_update(divs[i],div_sizes[i],"red");//Color update

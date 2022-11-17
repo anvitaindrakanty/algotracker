@@ -7,6 +7,12 @@ function Heap()
     heap_sort();
     
     // enable_buttons();
+    document.getElementById('complexities_table').style.display = 'none';
+    document.getElementById('complexities_table1').style.display = 'none';
+    document.getElementById('complexities_table2').style.display = 'none';
+    document.getElementById('complexities_table3').style.display = 'none';
+    document.getElementById('complexities_table4').style.display = 'none';
+    document.getElementById('complexities_table5').style.display = 'block';
 }
 
 function swap(i,j)
